@@ -1,16 +1,94 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <title>Bootstrap 101 version of sprckt.com</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    
   </head>
+
   <body>
-    <h1>Hello, world again!</h1>
-    <h2>Just seeing if this is going to work with bootstrap!</h2>
-    <img src="http://shop.greenhousebmx.com/media/catalog/product/cache/1/image/5e06319eda06f020e43594a9c230972d/c/u/cult_os_sprocket_red.jpg">
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">Me</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Coding</a></li>
+          <li><a href="#">Cycling</a></li>
+          <li><a href="#">Coasting</a></li>
+          <li><a href="#">Cogs</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Sprckt</h1>
+        <p>My digital self, projects and musings</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div> 
+
+<div class="neighborhood-guides">
+      <div class="container">
+        <h2>Latest photos</h2>
+        <p>Check out the thumbnails for some recent photos</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class = "thumbnail">
+                    <img src = "http://cdn.mos.bikeradar.imdserve.com/images/bikes-and-gear/bikes/road/1401370178267-rmiinei1w50x-700-80.jpg", alt="image1">
+                </div>
+                <div class = "thumbnail">
+                    <img src = "http://static.flickr.com/3123/4627304147_7c7e2a4ff6.jpg", alt="image2">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class = "thumbnail">
+                    <img src = "http://upload.wikimedia.org/wikipedia/commons/3/3e/Tour_de_France_at_Col_de_la_Croix_de_Fer.JPG", alt="image3">
+                </div>
+                <div class = "thumbnail">
+                    <img src = "http://images.fineartamerica.com/images-medium-large-5/8-cogs-les-cunliffe.jpg", alt="image4">
+                </div>
+            
+            </div>
+            <div class="col-md-4">
+                <div class = "thumbnail">
+                    <img src = "http://www.dignited.com/wp-content/uploads/2014/05/I-heard-hes-good-at-coding-l.jpg", alt="image4">
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+    <div class="learn-more">
+    <div class="container">
+    <div class = "row">
+        <div class="col-md-3">
+      <h3>Coding</h3>
+      <p>Have a look at my latest projects</p>
+      <p><a href="#">Coding projects</a></p>
+        </div>
+      <div class="col-md-3">
+      <h3>Cycling</h3>
+      <p>All things with 2 wheels.</p>
+      <p><a href="#">Check out the cycling collection</a></p>
+      </div>
+      <div class="col-md-3">
+      <h3>Coasting</h3>
+      <p>Our latest travels</p>
+      <p><a href="#">Check out some of our jet-setting</a></p>
+      </div>
+       <div class="col-md-3">
+      <h3>Cogs</h3>
+      <p>My musings</p>
+      <p><a href="#">Walk into the the maze</a></p>
+      </div>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
