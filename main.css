@@ -34,6 +34,12 @@
   color: #fff;
 }
 
+.about-me caption {
+  display:table-caption;
+  text-align: center;
+  font: italic bold;
+}
+
 .neighborhood-guides {
     background-color:#efefef;
     border-bottom: 1px solid #dbdbdb;
