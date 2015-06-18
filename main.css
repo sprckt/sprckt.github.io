@@ -40,6 +40,11 @@
   font: italic bold;
 }
 
+.contact-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .neighborhood-guides {
     background-color:#efefef;
     border-bottom: 1px solid #dbdbdb;
